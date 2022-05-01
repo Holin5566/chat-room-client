@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+#chatTable {
+  max-height: 75vh;
+  min-height: 75vh;
+}
+#chatTable::-webkit-scrollbar {
+  display: none;
+}
+.chat-content::before {
+  content: ": ";
+}
